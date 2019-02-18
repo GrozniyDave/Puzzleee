@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Lora");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lora", serif;
+  box-sizing: border-box;
+}
+html {
+  background-color: #323232;
+  color: #cdcdcd;
+}
+
+label {
+  display: block;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}
+
+.note {
+  font-size: 0.8em;
+}
+
+#container {
+  display: grid;
+  transform: translate(1px, 0px);
+}
+.inputs {
+  text-align: center;
+  margin: 10px;
+}
+.puzzle {
+  width: 100%;
+  display: inline-flex;
+  margin: 10px;
+}
+.sunset {
+  max-width: 300px;
+}
+.example {
+  width: 100%;
+  text-align: center;
+}
